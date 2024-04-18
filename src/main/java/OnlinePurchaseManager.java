@@ -27,10 +27,10 @@ public class OnlinePurchaseManager
   */
   public boolean hasAdjacentEqualPair()
   {
-    Gizmo gizmo1 = purchases.get(i);
-    Gizmo gizmo2 = purchases.get(i + 1);
-    if(gizmo1.equals(gizmo2)){
+    for(int i = 0; i<purchases.size()-1; i++){
+    	if(purchases.get(i).equals(purchases.get(i+1))){
       return true;
+    }
     }
       return false;
     /* to be implemented in part (b) */
