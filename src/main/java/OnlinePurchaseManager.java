@@ -29,7 +29,7 @@ public class OnlinePurchaseManager
   {
     Gizmo gizmo1 = purchases.get (i) ;
     Gizmo gizmo2 = purchases.get (i + 1);
-    if(gizmo1.equals(gizmo2))
+    if(gizmo1.equals(gizmo2)){
       return true;
     ｝
       Return false;
